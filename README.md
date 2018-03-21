@@ -47,10 +47,10 @@ not needed, and `npm` modules are very easy to import and use too.
 ## Structure
 
 ```
-- index.html:             browser entrypoint, and the single page application's
+- index.html:             browser entry point, and the single page application's
                           only HTML page.
 - src/
-  - index.ts:             logic entrypoint, app root component and CSS are
+  - index.ts:             logic entry point, app root component and CSS are
                           imported here.
   - components/           web components, separated into a directory for each.
     - app-shell/          an example web component
@@ -63,4 +63,7 @@ not needed, and `npm` modules are very easy to import and use too.
 
 ## App Size
 
-Polymer is a small library, which is only of the reasons I prefer it to its competitors when working on a small to medium sized app. This set up tries to keep that true. When building for production, this skeleton app generates a bundled `app.js` that is around ~100KB.
+Polymer is a small library, which is one of the reasons I prefer it to its
+competitors when working on a small to medium sized app. This set up tries to
+keep that true. When building for production, this skeleton app generates a
+bundled `app.js` that is around ~100KB.
