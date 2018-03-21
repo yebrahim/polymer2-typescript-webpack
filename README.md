@@ -36,6 +36,14 @@ Webpack's `import` mechanism is flexible enough to allow importing and
 bundling Javascript modules into web components, which means HTML imports are
 not needed, and `npm` modules are very easy to import and use too.
 
+## Tech Stack
+
+- Polymer 2
+- Typescript
+- Webpack
+- Polymer Typescript decorators
+- tslint
+
 ## Structure
 
 ```
