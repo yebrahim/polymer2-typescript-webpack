@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-flow: column;
+}
+
+.appbar {
+  flex: 48px 0 0;
+}
+
+.appbody {
+  flex-grow: 1;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "polymer2-typescript-webpack-project",
+  "version": "0.0.1",
+  "description": "Skeleton Polymer 2 + Typescript project built using webpack 3",
+  "main": "dist/index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-minify-webpack-plugin": "^0.3.0",
+    "bower": "^1.8.2",
+    "clean-webpack-plugin": "^0.1.16",
+    "concurrently": "^3.5.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "http-proxy-middleware": "^0.17.4",
+    "polymer-webpack-loader": "^2.0.0",
+    "reflect-metadata": "^0.1.10",
+    "ts-loader": "^2.3.7",
+    "tslint": "^5.9.1",
+    "tslint-loader": "^3.5.3",
+    "typescript": "2.6.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-merge": "^4.1.2"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --config webpack.dev.js",
+    "lint": "tslint -p tsconfig.json",
+    "postinstall": "bower install",
+    "start": "npm run dev",
+    "tsc": "tsc"
+  }
+}

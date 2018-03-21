@@ -1,0 +1,10 @@
+/* Can use CSS import */
+@import '../../styles/vars.css';
+
+:host {
+  background-color: var(--accent-color);
+  box-sizing: border-box;
+  color: white;
+  font-family: var(--sans-font);
+  padding: 15px;
+}

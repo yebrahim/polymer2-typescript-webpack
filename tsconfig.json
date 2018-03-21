@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "experimentalDecorators": true,
+    "lib": [
+      "es2017",
+      "es6",
+      "es5",
+      "dom",
+      "dom.iterable"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "outDir": "./dist/",
+    "paths": {
+      "*": [
+        "*",
+        "bower_components/*"
+      ]
+    },
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "es2015"
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "./bower_components"
+  ]
+}
