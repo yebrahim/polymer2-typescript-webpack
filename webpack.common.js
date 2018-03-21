@@ -20,8 +20,8 @@ module.exports = {
     extensions: ['.ts', '.tsx', '.js', '.jsx', '.html']
   },
   module: {
+    // Intentionally leaving out .js files, **typescriptify all the things!**
     rules: [
-      // Intentionally leaving out .js files, **typescriptify all the things!**
       {
         test: /\.html$/,
         loader: 'polymer-webpack-loader',

@@ -1,8 +1,3 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-
 # JS Sourcemaps
 *.js.map
 
@@ -11,24 +6,6 @@ node_modules/
 bower_components/
 
 # Build output
-dist
-
-# Web server
-frontend/server/*.js
-
-# Avoid all the package-lock.json noise
-package-lock.json
-
-# UI test outputs
-frontend/test/ui/broken
-
-# sqlite db
-*.db
-
-# IDE
-.idea/
-
-# Vendor
-vendor/
+dist/
 
 .DS_Store
