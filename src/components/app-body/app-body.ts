@@ -1,4 +1,6 @@
 import { customElement, property } from 'polymer-decorators/src/decorators';
+
+import 'paper-button/paper-button.html';
 import 'polymer/polymer.html';
 import { env } from '../../lib/config';
 import './app-body.html';
@@ -14,5 +16,9 @@ export class AppBody extends Polymer.Element {
     if (env === 'dev') {
       this.name += ' (This is the development environment)';
     }
+  }
+
+  _clicked() {
+    alert('clicked!');
   }
 }

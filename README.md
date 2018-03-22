@@ -34,7 +34,8 @@ shared styles nicely.
 
 Webpack's `import` mechanism is flexible enough to allow importing and
 bundling Javascript modules into web components, which means HTML imports are
-not needed, and `npm` modules are very easy to import and use too.
+not needed, and `npm` modules are very easy to import and use too. Even bower
+components, including Polymer elements, are included the same way.
 
 ## Tech Stack
 

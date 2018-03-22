@@ -1,3 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Open+Sans:400,700|Material+Icons);
+
 :host {
   padding: 20px;
+}
+
+paper-button {
+  background-color: darkslateblue;
+  color: #eee;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
 }
